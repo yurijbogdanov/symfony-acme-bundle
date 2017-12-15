@@ -1,0 +1,26 @@
+{
+    "name": "yurijbogdanov/symfony-acme-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Acme Bundle",
+    "keywords": ["php", "symfony", "symfony-bundle"],
+    "homepage": "https://github.com/yurijbogdanov/symfony-acme-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yurij Bogdanov",
+            "email": "bogdanovyurij@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "stable"
+}
